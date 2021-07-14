@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { BASE_URL, headers } from '../Services';
 import axios from "axios";
-import Data from "./Data";
+// import Data from "./Data";
 
 export default function Home() {
   const [data, setData] = useState([]);
