@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from "axios";
-use { useState } from "react";
+import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { BASE_URL, headers } from '../Services/index';
 
@@ -15,15 +15,28 @@ const defaultForm = {
 
 export default function NewExperience() {
   const [input, setInput] = useState("");
-  const history = useHistory();
+  // const history = useHistory();
 
+  const handleChange = (event) => {
+    const { id, value } = event.target;
+    console.log(id, value, input);
 
+    setInput((prevInput) => ({
+      ...prevInput,
+      [id]: value,
+    }));
+};
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  const res = await axios.post(BASE_URL, { fields: input }, { headers });
+  console.log(res);
+  }
 
   return (
     <div>
       <h2>What's going on?</h2>
       <form onSubmit={handleSubmit}>
-        <label>Name</label>
         <br />
         <input
           id="name"
@@ -31,13 +44,36 @@ export default function NewExperience() {
           onChange={handleChange}
           placeholder="Name"
         />
+        <br />
         <input type="textarea"
           id="problem"
-          value="{input.problem}"
+          value={input.problem}
           onChange={handleChange}
           placerholder="Problem"
         />
         <br />
+        <input
+          id="goal"
+          value={input.goal}
+          onChange={handleChange}
+          placeholder="Goal"
+        />
+        <br />
+        <input
+          id="thorn"
+          value={input.thorn}
+          onChange={handleChange}
+          placerholde="Thorn"
+        />
+        <br />
+        <input
+          id="rose"
+          value={input.rose}
+          onChange={handleChange}
+          placeholder="Rose"
+        />
+        <br />
+        <button>Submit</button>
       </form>
     </div>
   )

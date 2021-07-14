@@ -26,8 +26,8 @@ export default function Home() {
             <h1>Name:{card.fields.name}</h1>
             <p>Problem:{card.fields.problem}</p>
             <h6>Goal:{card.fields.goal}</h6>
-            <h6>Rose:{card.fields.rose}</h6>
             <h6>Thorn:{card.fields.thorn}</h6>
+            <h6>Rose:{card.fields.rose}</h6>
           </div>
         )
       })}
