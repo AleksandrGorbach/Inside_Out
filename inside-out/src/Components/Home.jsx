@@ -21,9 +21,15 @@ export default function Home() {
   return (
     <div>
       {data.map(card => {
-        return (<div>
-          <h1>name: {card.fields.name}</h1>
-        </div>)
+        return (
+          <div>
+            <h1>Name:{card.fields.name}</h1>
+            <p>Problem:{card.fields.problem}</p>
+            <h6>Goal:{card.fields.goal}</h6>
+            <h6>Rose:{card.fields.rose}</h6>
+            <h6>Thorn:{card.fields.thorn}</h6>
+          </div>
+        )
       })}
     </div>
   )
