@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { BASE_URL, headers } from '../Services';
 import axios from "axios";
+import "./Card/Card.css"
 // import Data from "./Data";
 
 export default function Home() {
@@ -19,16 +20,18 @@ export default function Home() {
   }, []);
 
   return (
-    <div className = "Card">
+    <div className = "card-container">
       {data.map(card => {
         return (
-          <div>
+          <div className="card">
+            <div className="card-inner">
             <h1>Name:{card.fields.name}</h1>
             <p>Problem:{card.fields.problem}</p>
             <h6>Goal:{card.fields.goal}</h6>
             <h6>Thorn:{card.fields.thorn}</h6>
             <h6>Rose:{card.fields.rose}</h6>
-          </div>
+            </div>
+            </div>
         )
       })}
     </div>

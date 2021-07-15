@@ -40,10 +40,10 @@
 .Card {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   margin: 0;
   border: 1px solid black;
-  /* flex-flow: column-reverse; */
+  flex-flow: column-reverse;
 }
 
 .header {

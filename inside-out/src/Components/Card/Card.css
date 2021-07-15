@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+  margin: 0;
+  flex-flow: column-reverse;
+  width: 25%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-inner {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 5px;
+  max-height: 300px;
+  height: 300px;
+}

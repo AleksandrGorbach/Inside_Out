@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Modal from "../Modal/Modal";
 
 export default function Navbar() {
   return (
@@ -13,6 +14,7 @@ export default function Navbar() {
       <Link to="/About">
         <h3>About</h3>
       </Link>
+      <Modal />
     </div>
   )
 }
