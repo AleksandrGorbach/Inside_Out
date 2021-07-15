@@ -1,7 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
+import { Route } from "react-router-dom";
+import Header from "./Components/Header";
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 import NewExperience from './Components/NewExperience';
 import index from "./Services/index";
 // import Data from './Components/Data';
@@ -9,11 +12,19 @@ import index from "./Services/index";
 function App() {
   return (
     <div className="App">
+      <Header />
+      <hr />
       <Navbar />
       <hr />
-      <Home />
+      <Route exact path="/">
+        <Home />
+      </Route>
       <hr />
-      <NewExperience />
+      <Route path="/Pen to paper">
+        <NewExperience />
+      </Route>
+      <hr />
+      <Footer />
       {/* <Data /> */}
     </div>
   );

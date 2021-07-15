@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className = "Card">
       {data.map(card => {
         return (
           <div>
