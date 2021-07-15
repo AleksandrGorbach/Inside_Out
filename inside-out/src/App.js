@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Route } from "react-router-dom";
-import Header from "./Components/Header";
+import Modal from "./Components/Modal/Modal";
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer';
 import NewExperience from './Components/NewExperience';
 import index from "./Services/index";
@@ -12,8 +12,9 @@ import index from "./Services/index";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <hr />
+      {/* <Header /> */}
+      {/* <hr /> */}
+      <Modal />
       <Navbar />
       <hr />
       <Route exact path="/">
