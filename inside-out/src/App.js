@@ -14,7 +14,6 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       {/* <hr /> */}
-      <Modal />
       <Navbar />
       <hr />
       <Route exact path="/">

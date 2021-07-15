@@ -15,7 +15,7 @@ const defaultForm = {
 
 export default function NewExperience() {
   const [input, setInput] = useState("");
-  // const history = useHistory();
+  const history = useHistory();
 
   const handleChange = (event) => {
     const { id, value } = event.target;
@@ -31,6 +31,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   const res = await axios.post(BASE_URL, { fields: input }, { headers });
   console.log(res);
+  history.push("/");
   }
 
   return (
