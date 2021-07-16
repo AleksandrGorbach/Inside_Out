@@ -23,7 +23,7 @@ export default function Home() {
     <div className = "card-container">
       {data.map(card => {
         return (
-          <div className="card">
+          <div className="card" key={card.id}>
             <div className="card-inner">
             <h1>Name:{card.fields.name}</h1>
             <p>Problem:{card.fields.problem}</p>

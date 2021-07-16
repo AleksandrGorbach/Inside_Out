@@ -12,10 +12,8 @@ import index from "./Services/index";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
-      {/* <hr /> */}
       <Navbar />
-      <hr />
+      {/* <hr /> */}
       <Route exact path="/">
         <Home />
       </Route>

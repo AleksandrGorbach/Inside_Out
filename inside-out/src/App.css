@@ -37,15 +37,6 @@
   }
 }
 
-.Card {
-  display: flex;
-  justify-content: center;
-  /* align-items: flex-end; */
-  margin: 0;
-  border: 1px solid black;
-  flex-flow: column-reverse;
-}
-
 .header {
   background-color: green;
 }
@@ -55,12 +46,14 @@
 }
 
 .footer {
-  position: fixed;
-  padding: 10px 10px 0px 10px;
+  display: flex;
+  background-color: none;
+  align-content: flex-end;
+  justify-content: center;
+  position: inherit;
+  margin-top: auto;
+  height: 50px;
   bottom: 0;
-  width: 100%;
-  /* Height of the footer*/
-  height: 40px;
-  text-align: center;
-  background-color: lightgreen;
+  width: 100vw;
+  font-size: 30px;
 }
