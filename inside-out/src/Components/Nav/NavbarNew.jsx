@@ -10,9 +10,9 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/about" activeStyle>
+          <Link to="/about" activeStyle>
             About
-          </NavLink>
+          </Link>
           <NavLink to="/about" activeStyle>
             Pen to Paper
           </NavLink>
@@ -24,3 +24,5 @@ const Navbar = () => {
     </div>
   )
 }
+
+export default NavbarNew
