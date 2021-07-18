@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Route } from "react-router-dom";
 import Modal from "./Components/Modal/Modal";
 import Home from './Components/Home';
+import Card from "./Components/Card/Card"
 // import Navbar from './Components/Navbar/Navbar';
 import Navbar from "./Components/Navbar";
 import Footer from './Components/Footer';
@@ -15,19 +16,17 @@ function App() {
   return (
     <div className="App">
       <Container>
-      <Navbar />
+        <Navbar />
+        {/* <Card /> */}
        {/* <Navbar /> */}
-      {/* <hr /> */}
+      
       <Route exact path="/">
         <Home />
       </Route>
-      <hr />
       <Route path="/Pen to paper">
         <NewExperience />
       </Route>
-      {/* <hr /> */}
       <Footer />
-        {/* <Data /> */}
       </Container>
     </div>
   );

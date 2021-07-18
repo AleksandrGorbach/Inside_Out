@@ -1,0 +1,42 @@
+.head {
+  padding: 1rem 0;
+  color: #7b7fda;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.head span {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.form {
+  padding: 1rem 0;
+}
+
+.input {
+  width: 500px;
+}
+
+.input-problem {
+  width: 500px;
+  height: 125px;
+}
+
+.submit-btn {
+  background-color: #7b7fda;
+  font-weight: 800;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px;) {
+  .input {
+    width: 300px;
+  }
+}

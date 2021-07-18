@@ -1,0 +1,14 @@
+.footer {
+  /* margin: 0 auto; */
+}
+
+.created {
+  font-weight: 800;
+  color: #7b7fda;
+  margin: 0;
+}
+
+.created span {
+  font-weight: 300;
+  font-size: 2rem;
+}
