@@ -12,7 +12,7 @@ export default function Footer() {
       <a href="https://github.com/AleksandrGorbach" target="_blank">
         <FontAwesomeIcon icon={faGithub} id="git" />
       </a>
-      <a href="https://www.linkedin.com/in/aleksandr-gorbach/" target="_blank">
+      <a href="https://www.linkedin.com/in/aleksandr-gorbach-85a314154/" target="_blank">
         <FontAwesomeIcon icon={faLinkedin} id="link" />
       </a>
     </div>

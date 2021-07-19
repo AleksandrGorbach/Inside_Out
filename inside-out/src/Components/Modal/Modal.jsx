@@ -16,20 +16,20 @@ export default function Modal() {
 
   return (
     <>
-      <button onClick={toggleModal} className="btn-modal">
+      <div onClick={toggleModal} className="about">
         About
-      </button>
+      </div>
 
       {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
+            <h2>About Inside Out</h2>
             <p>
               Inside Out is a web-based app
             </p>
             <button className="close-modal" onClick={toggleModal}>
-              CLOSE
+              X
             </button>
           </div>
         </div>

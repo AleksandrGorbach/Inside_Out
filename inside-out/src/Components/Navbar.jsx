@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Modal from "./Modal/Modal";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,10 +17,10 @@ const Navbar = () => {
           <span />
       </Hamburger >
       <Menu isOpen={isOpen}>
-        <MenuLink href="">About</MenuLink>
-        <MenuLink href="/Pen to paper">Pen to Paper</MenuLink>
         <MenuLink href="/">Inside Out</MenuLink>
-        <MenuLink href="">Help</MenuLink>
+        <MenuLink href="/Pen to paper">Pen to Paper</MenuLink>
+        <Modal />
+        <MenuLink href="https://www.mentalhealth.gov/" target="_blank">Help</MenuLink>
       </Menu>
     </Nav>
   );
@@ -61,6 +62,7 @@ const MenuLink = styled.a`
   color: #67bc98;
   transition: all 0.3s ease-in;
   font-size: 0.9rem;
+  font-weight: bold;
 
   &:hover{
     color: #7b7fda;

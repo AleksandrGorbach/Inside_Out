@@ -28,8 +28,7 @@ function App() {
       </Route>
       </Container>
       </div>
-      <Footer />
-
+      {/* <Footer /> */}
     </div>
   );
 }

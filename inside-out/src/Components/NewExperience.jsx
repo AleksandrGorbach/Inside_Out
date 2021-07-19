@@ -88,6 +88,7 @@ const handleSubmit = async (e) => {
         <br />
         <button className="submit-btn">Submit</button>
       </form>
+      <Footer />
     </div>
   )
 }

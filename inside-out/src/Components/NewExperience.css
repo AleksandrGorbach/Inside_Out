@@ -37,8 +37,12 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 850px;) {
+@media screen and (max-width: 768px) {
   .input {
-    width: 100px;
+    width: 300px;
+  }
+
+  .input-problem {
+    width: 300px;
   }
 }

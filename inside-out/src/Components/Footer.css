@@ -14,3 +14,12 @@
   font-weight: 300;
   font-size: 2rem;
 }
+
+@media screen and (max-width: 680px) {
+  .footer {
+    /* width: px; */
+  }
+  .created {
+    display: none;
+  }
+}

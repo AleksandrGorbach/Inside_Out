@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { BASE_URL, headers } from '../Services';
 import Card from "./Card/Card";
+import Footer from "./Footer";
 import axios from "axios";
 import "./Card/Card.css"
 
@@ -33,6 +34,7 @@ export default function Home() {
         )
       })}
       </div>
+      <Footer />
       </div>
   )
 }

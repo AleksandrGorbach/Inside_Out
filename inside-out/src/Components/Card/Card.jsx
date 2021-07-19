@@ -9,15 +9,13 @@ const Card = (props) => {
     Aos.init({});
   }, []);
   return (
-    <div className="Card">
-      <div className="grids">
+    <div className="Cards">
         <div data-aos="fade-up" className="boxes">
             <h1>Name: {props?.name}</h1>
             <p>Problem: {props?.problem}</p>
             <h6>Goal: {props?.goal}</h6>
             <h6>Thorn: {props?.thorn}</h6>
             <h6>Rose: {props?.rose}</h6>
-        </div>
       </div>
     </div>
   )
