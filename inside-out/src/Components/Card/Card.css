@@ -3,7 +3,7 @@
   justify-content: center;
   margin: 0 auto;
   flex-flow: column-reverse;
-  width: 30%;
+  width: 600px;
   height: 300px;
 }
 
@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* height: 100px; */
+  width: 100%;
 }
 
 .card-inner {
@@ -25,4 +25,30 @@
 
 .grid {
   height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+  }
+  .card {
+    width: 100px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

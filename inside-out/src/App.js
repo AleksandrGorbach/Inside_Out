@@ -1,23 +1,27 @@
-import './App.css';
+import "./App.css";
 import styled from "styled-components";
 import { Route } from "react-router-dom";
-import Home from './Components/Home';
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import NewExperience from './Components/NewExperience';
+import NewExperience from "./Components/NewExperience";
 
 function App() {
   return (
-  <div>
-    <div className="App">
+    <div>
+      <div className="App">
         <Container>
-        <Navbar />
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/Pen to paper">
-        <NewExperience />
-      </Route>
-      </Container>
+          <Navbar />
+          <main>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/Pen to paper">
+              <NewExperience />
+            </Route>
+          </main>
+          <Footer />
+        </Container>
       </div>
     </div>
   );
@@ -25,7 +29,7 @@ function App() {
 
 const Container = styled.div`
   background: #67bc98;
-  height: 100%;
-`
+  height: 100vh;
+`;
 
 export default App;

@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from "axios";
-import Footer from "./Footer"
+// import Footer from "./Footer"
 import "./NewExperience.css";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
         <br />
         <button className="submit-btn">Submit</button>
       </form>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
