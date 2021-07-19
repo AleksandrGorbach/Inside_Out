@@ -47,7 +47,7 @@
 
 .footer {
   display: flex;
-  background-color: none;
+  /* background-color: none; */
   align-content: flex-end;
   justify-content: center;
   position: inherit;

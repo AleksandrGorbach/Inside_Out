@@ -26,7 +26,13 @@ export default function Modal() {
           <div className="modal-content">
             <h2>About Inside Out</h2>
             <p>
-              Inside Out is a web-based app
+              Inside Out is a web-based app that centers around being heard. Many people struggle with mental health issues and are afraid to speak up.
+              <br />
+              <br />
+              "Pen to Paper" will bring you to a form where you will fill out a struggle you are currently facing.
+              <br />
+              <br />
+              The homepage will showcase everyones experiences to show that you are not alone.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               X
