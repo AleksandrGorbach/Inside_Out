@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   /* align-items: flex-end; */
-  margin: 0;
+  margin: 0 auto;
   flex-flow: column-reverse;
-  width: 25%;
+  width: 30%;
+  height: 300px;
 }
 
 .card-container {

@@ -14,20 +14,22 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
+  <div>
     <div className="App">
       <Container>
         <Navbar />
         {/* <Card /> */}
        {/* <Navbar /> */}
-      
       <Route exact path="/">
         <Home />
       </Route>
       <Route path="/Pen to paper">
         <NewExperience />
       </Route>
-      <Footer />
       </Container>
+      </div>
+      <Footer />
+
     </div>
   );
 }

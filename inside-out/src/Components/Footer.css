@@ -1,10 +1,12 @@
 .footer {
+  position: fixed;
+  background-color: white;
   /* margin: 0 auto; */
 }
 
 .created {
   font-weight: 800;
-  color: #7b7fda;
+  color: hsl(237, 56%, 67%);
   margin: 0;
 }
 

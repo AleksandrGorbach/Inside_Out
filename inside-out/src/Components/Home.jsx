@@ -20,20 +20,19 @@ export default function Home() {
   }, []);
 
   return (
-    <div className = "card-container">
-      {data.map(card => {
+    <div>
+    <div>
+      <h1 className="title">User<span>Testimonials</span></h1>
+    </div>
+    <div className="card-container">
+      {data?.map(card => {
         return (
           <div className="card" key={card.id}>
-            <div className="card-inner">              
-            <h1>Name:{card.fields.name}</h1>
-            <p>Problem:{card.fields.problem}</p>
-            <h6>Goal:{card.fields.goal}</h6>
-            <h6>Thorn:{card.fields.thorn}</h6>
-            <h6>Rose:{card.fields.rose}</h6>
-            </div>
+            <Card name={card.fields.name} problem={card.fields.problem} goal={card.fields.goal} thorn={card.fields.thorn} rose={card.fields.rose}/>
             </div>
         )
       })}
-    </div>
+      </div>
+      </div>
   )
 }
