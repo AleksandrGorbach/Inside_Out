@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { BASE_URL, headers } from '../Services/index';
 
+// eslint-disable-next-line
 const defaultForm = {
   name: "",
   artistname: "",
