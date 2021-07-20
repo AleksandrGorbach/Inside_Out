@@ -56,50 +56,46 @@ MVP:
     2. Form where users can share their experiences (post)
     3. Description of the App that shows up
     4. Add resources/mental health awareness links 
-    5. Delete posts
-
 PMVP:
     1. Add a meditation page with a styled timer
     2. Create a second Airtable base that offers thought provoking questions when filling out the form 
     3. Style the page to shift the colors inside out when scrolling.
     4. Add burger nav for the mobile version
+    5. Delete posts
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 13| Prompt / Wireframes / Timeframes / Approval | Complete
-|July 14| Core Application Structure | Incomplete
-|July 15| GET / Post | Incomplete
-|July 16| MVP  | Incomplete
-|July 17| Styling MVP | Incomplete
-|July 18| PMVP | Incomplete
-|July 19| PMVP Styling | Incomplete
+|July 14| Core Application Structure | Coomplete
+|July 15| GET / Post | Complete
+|July 16| MVP  | Complete
+|July 17| Styling MVP | Complete
+|July 18| PMVP | Complete
+|July 19| PMVP Styling | Complete
 |July 20| Presentations | Incomplete
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Airtable | E | .5hrs | 5hrs | 3.5hrs |
+| Airtable | E | .5hrs | 5hrs | .5hrs |
 | Initial Skeleton | M | 1hrs | 3hrs | 3hrs |
-| Component Setup | H | 3hrs | 2hrs | 2hrs |
-| Get & Post | H | 3hrs | 2hrs | 2hrs |
-| Delete | H | 2hrs | 2hrs | 2hrs |
+| Component Setup | H | 3hrs | 7hrs | 7hrs |
+| Get & Post | H | 3hrs | 3hrs | 3hrs |
+| Animations | H | 2hrs | 2hrs | 2hrs |
 | Styling Homepage | H | 3hrs | 6hrs | 6hrs |
 | Researching Additional React Imports | H | 3hrs | 5hrs | 5hrs |
 | Gallery Form Testimonials (Desktop) | H | 2hrs | 3hrs | 3hrs |
 | Additional Styling with Grid | H | 3hrs | 2.5hrs | 2.5hrs |
-| Media Queries | M | 2hrs |
-| Potentially Adding 2nd Airtable| M | 2hrs | 
-| Debugging & troubleshooting | H | 3hrs | 4hrs | 4hrs |
+| Media Queries | M | 2hrs | 3hrs | 3hrs |
+| Debugging & troubleshooting | H | 3hrs | 6hrs | 6hrs |
 | Getting user feedback | M | 2hrs | 3hrs | 3hrs |
 | Testing functionality | H | 2hrs | 3hrs | 3hrs |
-| Mock Presentation(s) | M | 1hr | 1.5 hrs | 1.5 hrs |
-| Total | H | 34hrs| hrs | 5hrs | 40.5 | 40.5 | 
+| Mock Presentation(s) | M | 1hr | .5 hrs | .5 hrs |
+| Total | H | 47hrs | 
 
-## Code Snippet
-```
 
 ```  
 
