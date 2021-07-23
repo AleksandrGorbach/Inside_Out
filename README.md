@@ -1,6 +1,6 @@
 # # Project Overview
 
-[Inside Out Live](https://60f5e56cb3ad9c0007686e61--festive-hopper-37728e.netlify.app/)
+[Inside Out Live](https://inside-out-37728e.netlify.app/)
 
 ## Project Name
 
